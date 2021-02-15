@@ -1,0 +1,89 @@
+
+.btn-dangnhap:hover{
+    color: #fff;
+    background:rgb(40, 167, 69);
+    border: 1px solid rgb(40, 167, 69);
+    box-shadow:  0 0 10px rgb(40, 167, 69),0 0 40px rgb(40, 167, 69);
+    /* Độ trễ hiển thị */
+    transition-delay: 1s;
+}
+
+.btn-huy-don-hang:hover{
+    color: #fff;
+    background:#dc3545;
+    border: 1px solid #dc3545;
+    box-shadow:  0 0 10px#dc3545,0 0 40px #dc3545;
+    /* Độ trễ hiển thị */
+    transition-delay: 1s;
+}
+
+.formdangnhap{
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(134, 134, 134, 0.3);
+    padding: 20px;
+    border-radius: 30px;
+    top: 30%;
+}
+
+.box .inputBox{
+    position: relative;
+    box-shadow: #000;
+}
+
+.box .inputBox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background: transparent;
+}
+
+.eye{
+    position: relative;
+}
+.eye img{
+    position: absolute;
+    left: 95%;
+    top: 15px;
+}
+
+.box .inputBox label{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px 0px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    pointer-events: none;
+    transition: .5s;
+    opacity: 0.7;
+}
+
+.box .inputBox input:focus ~label,
+.box .inputBox input:valid ~label{
+    top: -30px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 14px;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 576px){
+    .eye img{
+        position: absolute;
+        left: 93%;
+        top: 15px;
+    }
+
+    .logo{
+        height: 70px;
+     }
+ 
+     h4 strong b{
+         font-size: 18px;
+     }
+}

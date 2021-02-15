@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-attachment:fixed;
+    background-position:center;	
+    background-size:cover;
+    background-origin:border-box;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+h3{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+div .card{
+    border-radius: 30px; 
+    box-shadow: 0 15px 25px rgba(134, 134, 134, 0.3);
+}
+
+/* .rotate {
+    transform-origin: 85px 4px;
+    animation: rotation 5s 0.5s infinite ease-out;
+}
+  
+.rotate:hover{
+	transition: 2s;
+	transform: rotate(360deg);
+} */
+
+.need{
+    color: red;
+}
+
+.bg-custom{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card-menu:hover{
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 15px 25px #fff;
+    color: rgb(46, 46, 46);
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+
+@media only screen and (max-width: 768px){
+    a.dangxuat{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .form-them-khach{
+        margin-top: 30px;
+    }
+
+    .form-sua-khach{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    a.dangxuat{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .form-them-khach{
+        margin-top: 30px;
+    }
+
+    .form-sua-khach{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    marquee{
+        margin-top: 15px;
+    }
+}
+

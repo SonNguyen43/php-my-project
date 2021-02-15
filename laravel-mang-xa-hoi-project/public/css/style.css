@@ -1,0 +1,61 @@
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background: #F2F3F5;
+
+	/* background-image: url(/storage/images/background/background.jpg);
+	background-size: 100% 100vh;
+	background-attachment: fixed;
+	background-repeat: no-repeat; */
+
+
+	/* chống bôi đen */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer */
+	-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+	-webkit-user-select: none; /* Chrome, Safari, and Opera */
+	-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+.container{
+	max-width:960px !important;
+}
+
+.darkmode{
+	bottom: 10px; 
+	right:10px; 
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	position: fixed; 
+}
+
+.shadow-bulma{
+	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+
+/* Hình nển */
+::-webkit-scrollbar{
+	width: 7px;
+	height: 10px;
+
+}
+/* Không gian trống dưới thanh scroll */
+::-webkit-scrollbar-track {
+	background-color: #F2F3F5;  
+}
+
+::-webkit-scrollbar-thumb{
+	background: rgb(139, 139, 139);
+	border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #3c3c3c;
+}

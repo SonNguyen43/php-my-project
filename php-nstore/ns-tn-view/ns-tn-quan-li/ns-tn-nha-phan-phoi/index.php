@@ -30,7 +30,7 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-end mt-3 ">
                         <a href="index.php?page=taomoinhaphanphoi" class=" btn btn-success rounded-pill mr-3">Tạo nhà phân phối</a>
-                        <a href="index.php?page=nhaphanphoivacuahang"><img src="ns-tn-public/ns-tn-images/default/pharmacy.png" class="logo rotate mr-3" data-toggle="tooltip" data-placement="top" title="Nhà phân phối có cửa hàng" data-toggle="tooltip" data-placement="top" title="Thống kê" width="32px" height="32px"></a>
+                        <a href="index.php?page=nhaphanphoivacuahang"><img src="ns-tn-public/ns-tn-images/default/house.png" class="logo rotate mr-3" data-toggle="tooltip" data-placement="top" title="Nhà phân phối có cửa hàng" data-toggle="tooltip" data-placement="top" title="Thống kê" width="32px" height="32px"></a>
                         <button class=" btn btn-secondary text-light rounded-pill mr-3" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                             Tìm nhà phân phối
                         </button>

@@ -49,7 +49,7 @@
             </div>  <!-- END QUAN LI NHA PHAN PHOI -->
 
             <!-- QUAN LI TON KHO -->
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 d-flex justify-content-center">
+            <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3 d-flex justify-content-center">
                 <a href="index.php?page=quanlitonkho" class="w-100 text-decoration-none">
                     <div class="card mb-3 border border-white card-index-quanli bg-custom card-menu">
                         <div class="d-flex justify-content-center">
@@ -61,7 +61,8 @@
                         </div>
                     </div>
                 </a>
-            </div>  <!-- END QUAN LI TON KHO -->
+            </div>   -->
+            <!-- END QUAN LI TON KHO -->
 
             <!-- QUAN LI HANG HOA -->
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
@@ -72,14 +73,14 @@
                         </div>
                       
                         <div class="card-body">
-                            <h3 class="card-title text-center text-browns title-qlad"><strong><b>QUẢN LÍ HÀNG HÓA</b></strong></h3>
+                            <h3 class="card-title text-center text-browns title-qlad"><strong><b>QUẢN LÍ SẢN PHẨM</b></strong></h3>
                         </div>
                     </div>
                 </a>
             </div>  <!-- END QUAN LI HANG HOA -->
 
             <!-- QUAN LI NHA THUOC -->
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-3">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 offset-md-4 mt-3">
                 <a href="index.php?page=nhathuoc" class="w-100 text-decoration-none">
                     <div class="card mb-3 border border-white card-index-quanli bg-custom card-menu">
                         <div class="d-flex justify-content-center">
